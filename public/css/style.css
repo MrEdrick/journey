@@ -1,0 +1,688 @@
+.shadow-0 {
+  background: #fff;
+  border-radius: 2px;
+  display: block;
+  float: left;
+  height: 150px;
+  margin: 1rem;
+  position: relative;
+  width: 150px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.shadow-1 {
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -ms-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.shadow-1:hover {
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.shadow-2 {
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  -ms-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  -o-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.shadow-2:hover {
+    -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    -ms-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    -o-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.shadow-3 {
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.shadow-3:hover {
+    -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -ms-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -o-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.shadow-4 {
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -ms-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -o-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.shadow-4:hover {
+    -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -ms-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -o-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+  
+.shadow-5 {
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  -ms-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  -o-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+@font-face {
+    font-family: 'cycloregular';
+    src: url('../font/cyclo-webfont.woff2') format('woff2'),
+         url('../font/cyclo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+nav a, button {
+    min-width: 48px;
+    min-height: 48px;
+}
+
+a {
+    text-decoration: none;
+}
+
+html, body { 
+    width: 100%; 
+    height: 100%; 
+    margin: 0; 
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+header h1 {
+    font-family: 'cycloregular', sans-serif;
+}
+
+header h1 a {
+    color: #414141; 
+}
+
+#title-mobile {
+    display: block;
+    width: 50%;
+}
+    
+#title-desktop {
+    display: none;
+}
+
+#header-rigth {
+    display: none;
+}
+
+#header-center {
+    display: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    display: inline-block;
+    z-index: 1;
+    padding: 0 5% 0 0%;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.header-solid h1 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li, i {
+    color: #0cbeb9;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+#titulo-servicos {
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: #616161; 
+}
+
+#start-text {
+    top: 10%;
+    width: 90%;
+    height: 40%;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+}  
+
+#start-text p {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #616161;
+}
+
+#spotlight-start-text {
+    font-size: 2em;
+    font-weight: 600;
+    color: #25afab;
+}
+
+#start-images {
+    height: 50%;
+    position: relative;
+    display: inline-block;
+}
+
+#titulo-servicos h1 {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+#servicos {
+    background-color: #efe3bd;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#cards-servicos {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.card-servico {
+    flex: 1;
+    min-width: 40%;
+    height: 200px;
+    background-color: #f0f0f0;
+    margin: 1% 1% 5% 1%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.servico-left {
+    flex: 1;
+    color: #eb3d49;
+}
+
+.servico-rigth {
+    flex: 3;
+    color: #2d3c49; 
+}
+
+#contato {
+    background-color: #d1ffff;
+}
+
+@media screen and (min-width: 425px) {
+
+}
+
+@media screen and (min-width: 770px) {
+    .header-blur {    
+        -moz-box-shadow: inset 0 -10px 10px -10px rgba(255, 255, 255, 1);;
+        -webkit-box-shadow: inset 0 -10px 10px -10px rgba(255, 255, 255, 1);;
+        box-shadow: inset 0 -10px 10px -10px rgba(255, 255, 255, 1);;
+
+        transition        : all 0.5s linear;
+        -moz-transition   : all 0.5s linear;
+        -webkit-transition: all 0.5s linear;
+        -o-transition     : all 0.5s linear;
+    }
+
+    .header-blur:before {
+        content: "";
+        position: absolute;
+        width : 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.5);
+        z-index: -1;
+    
+        filter        : blur(2px);
+        -moz-filter   : blur(2px);
+        -webkit-filter: blur(2px);
+        -o-filter     : blur(2px);
+    
+        transition        : all 0.5s linear;
+        -moz-transition   : all 0.5s linear;
+        -webkit-transition: all 0.5s linear;
+        -o-transition     : all 0.5s linear;
+    }
+
+    .header-solid {
+        background-color: #fff;
+
+        transition        : all 0.5s linear;
+        -moz-transition   : all 0.5s linear;
+        -webkit-transition: all 0.5s linear;
+        -o-transition     : all 0.5s linear;
+    }
+
+    .logo {
+        width: 0.7em;
+        height: 0.7em;
+    }
+
+    #header-left {
+        margin-left: 5%;
+    }
+
+    #container-header {
+        position: relative;
+        width : 100%;
+        height: 100%;  
+    }
+
+    .header-top-left {
+        float: left;
+        display: block;
+        z-index: 3;
+        width: 25%;
+    }
+
+    .header-left {
+        height: 60px;
+        display: block;
+        z-index: 3;
+        float: left;
+    }
+    
+    #title-desktop {
+        display: block;
+        margin-top: 5.5px;
+    }
+
+    #title-mobile {
+        display: none;
+    }
+
+    .header-top-rigth {
+        width: 70%;
+        float: right;
+        display: block;
+        z-index: 3;
+    }
+
+    .header-rigth {
+        height: 60px;
+        display: block;
+        z-index: 4;
+        float: right;
+    }
+
+    .header-button {
+        width: 70%;
+        float: right;
+        display: block;
+        z-index: 3;
+    }
+
+    .header-center {
+        height: 60px;
+        display: block;
+        z-index: 3;
+        float: left;
+    }
+    
+    .header-button, #menu {
+        float: right;
+    }
+
+    #menu ul {
+        margin-left: 30px;
+        margin-top: 1.5px;
+    }
+
+    #menu li {
+        float: left;
+    }
+    
+    #menu li a {
+        display: block;
+        text-align: center;
+        font-weight: 400;
+        padding: 16px;
+        text-decoration: none;
+        color: #0cbeb9;
+        font-size: 1.25em;
+    }
+    
+    #menu li a:hover {
+        background-color: rgba(12, 190, 185, 0.10);
+    }   
+    
+    .header-top-rigth li {
+        float: right;
+    }
+    
+    .header-top-rigth li a i {
+        display: block;
+        text-align: center;
+        font-size: 1.5em;
+        padding: 6px;
+        text-decoration: none;
+        color: #414141;
+    }
+
+    .header-top-rigth li a i:hover {
+        color: #0cbeb9;
+    }
+
+    .header-rigth li {
+        float: right;
+    }
+    
+    .header-rigth li a i {
+        display: block;
+        text-align: center;
+        font-size: 1.5em;
+        padding: 6px;
+        text-decoration: none;
+        color: #414141;
+    }
+
+    .header-rigth li a i:hover {
+        color: #0cbeb9;
+    }
+
+    #header-rigth ul {
+        padding-right: 10px;
+        margin-top: 12px;
+    }
+
+    main {
+        position: relative;
+        width: 100%;
+        height: 100%;        
+    }
+
+    footer {
+        position: relative;
+        width: 100%;
+        height: 100%;        
+    }
+
+    .container {
+        display: block;
+        float: left;
+    }
+
+    .container::after {
+        clear: both;
+    }
+
+    #inicio {
+        background-image: url("../img/inicio/journey+inicio+large.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .container-sobre-nos {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    #sobre-nos-img-top {
+        float: left;
+        position: relative;
+        background-image: url("../img/sobre_nos/agencia_journey_marketing_digital_design_de_experiencia_social_media_hotel_restaurante_cafe_pousada_restaurante_gastronomia_bruna.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+        height: 100%;
+    }
+
+    #sobre-nos-img-bottom {
+        float: right;
+        position: relative;
+        background-image: url("../img/sobre_nos/agencia_journey_marketing_digital_design_de_experiencia_social_media_hotel_restaurante_cafe_pousada_restaurante_gastronomia_andrea.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+        height: 100%;
+    }
+
+    .text-sobre-nos {
+        float: left;
+        position: relative;
+        width: 50%;
+        height: 100%;        
+        background-color: #eeea57;
+        text-align: center;
+        padding: 5% 0 5% 0;
+    }
+
+    .container-text-sobre-nos {
+        position: absolute;
+        height: 75%;
+        top: 12.5%;
+    }
+
+    .titulo-sobre-nos h2 {
+        font-size: 2.0em;
+        font-weight: 600;
+        color: #0aa38c;
+        margin-top: 0;
+    }
+    
+    .corpo-sobre-nos {
+        padding: 0 10% 0 10%;
+        text-align: left;
+    }
+
+    .corpo-sobre-nos h3 {
+        font-size: 2.0em;
+        font-weight: 600;
+        color: #0aa38c;
+        margin-top: 0;
+    }
+
+    .corpo-sobre-nos p {
+        font-size: 1.2em;
+        font-weight: 600;
+        color: #616161;        
+    }
+
+    #marcadagua-journey {
+        font-family: 'cycloregular', sans-serif;
+        font-size: 1.2em;
+        font-weight: 600;
+        color: #fff;   
+    }
+
+    #blog {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 65%;
+    }
+
+    #blog-caixa {
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+    }
+
+    #blog-caixa-ultimo {
+        flex: 1;
+        background-image: url("../img/blog/journey+blog+last+500h.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;           
+    }
+
+    #blog-caixa-recentes {
+        flex: 2;      
+        display: block;
+    }
+
+    .blog-caixa-recente {
+        float: left;
+        display: block;
+        min-width: 50%;
+        min-height: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .blog-caixa-recente:after {
+        content: '';
+        clear: both;
+        display: block;       
+    }
+    
+    #blog-caixa-recente-1 {
+        background-image: url("../img/blog/journey+blog+1+500h.jpg");
+    }
+
+    #blog-caixa-recente-2 {
+        background-image: url("../img/blog/journey+blog+2+500h.jpg");
+    }
+
+    #blog-caixa-recente-3 {
+        background-image: url("../img/blog/journey+blog+3+500h.jpg");
+    }
+
+    #blog-caixa-recente-4 {
+        background-image: url("../img/blog/journey+blog+4+500h.jpg");
+    }
+
+    #contato {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 35%;
+    }
+
+    #contato-caixa-journey {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        text-align: center;
+    }
+    
+    #contato-caixa-journey-header {
+        flex: 1;
+    }
+    
+    #contato-caixa-journey-footer-body {
+        flex: 3;
+    }
+    
+    #contato-caixa-journey-footer {
+        flex: 1;
+        color: #0cbeb9;
+    }    
+}
