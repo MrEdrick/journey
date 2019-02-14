@@ -12,7 +12,7 @@
 </head>
 
 <body id="body">
-    <header id="header" class="header-blur">
+    <header id="header" class="header-blur shadow-1">
         <section id="container-header">
             <div id="header-left" class="header-top-left">
                 <h1 id="title-desktop">
@@ -20,31 +20,32 @@
                         J<img class="logo" src="img/logo/logo+journey.svg" alt="o">urney
                     </a>
                 </h1>
-                <h1 id="title-mobile">
-                    <a href="/" href="index.html#inicio">
-                        <img class="logo" src="img/logo/logo+journey.svg" alt="o">
-                    </a>
-                </h1>
+                <a id="title-mobile" href="/" href="index.html#inicio">
+                    <img class="logo" src="img/logo/logo+journey.svg" alt="o">
+                </a>
             </div>
-            <aside id="header-rigth" class="header-top-rigth">
-                <ul>
+            <div id="header-rigth" class="header-top-rigth">
+                <ul id="menu-bar-desktop">
                     <li><a href="/"><i class="fab fa-youtube" id="youtube"></i></a></li>
                     <li><a href="/"><i class="fab fa-linkedin" id="linkedin"></i></a></li>
                     <li><a href="/"><i class="fab fa-facebook-square" id="facebook"></i></a></li>
                     <li><a href="/"><i class="fab fa-instagram" id="instagram"></i></a></li>
                 </ul>
-            </aside>
-            <nav id="header-center" class="header-button">
+                <a id="menu-bar-mobile" href="/" href="index.html#inicio">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+            <div id="header-center" class="header-button">
                 <nav id="menu">
                     <ul>
                         <li><a href="index.html#inicio">Início</a></li>
-                        <li><a href="index.html#sobrenos">Sobre Nós</a></li>
                         <li><a href="index.html#servicos">Servicos</a></li>
+                        <li><a href="index.html#sobrenos">Sobre Nós</a></li>
                         <li><a href="index.html#blog">Blog</a></li>
                         <li><a href="index.html#contato">Contato</a></li>
                     </ul>
                 </nav>
-            </nav>
+            </div>
         </section>
     </header>
     <main>
@@ -58,8 +59,8 @@
                     </p>
                 </section>
                 <figure id="start-images">
-                    <img src="img/start/journey+jou+companies+resignification+experience+design+digital+marketing+img+start+1.jpg" 
-                    alt="Journey">
+                    <img src="img/start/journey+jou+companies+resignification+experience+design+digital+marketing+img+start+1.jpg"
+                        alt="Journey">
                 </figure>
             </a>
         </section>
