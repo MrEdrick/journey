@@ -212,7 +212,7 @@ header {
     max-height: 10%;
     display: inline-block;
     z-index: 1;
-    padding: 0 5% 0 0%;
+    padding: 0 5% 0 5%;
     background-color: #ffffff;
 }
 
@@ -280,57 +280,63 @@ li, i {
     display: inline-block;
 }
 
-
-#titulo-servicos {
+#services {
+    background-color: #ffffff;
     width: 100%;
+}
+
+.container-service-descripion {
+    padding: 5%;
     display: block;
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: 600;
+    background-color: #25afab;
+    color: #ffffff;
+    text-align: center
+}
+
+.container-service-descripion:hover {
+    background-color: #2edbd6;
+    cursor: pointer;
+    font-size: 1.6em;
+}
+
+.container-service-text {
+    padding: 2% 5% 2% 5%;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #616161;   
+}
+
+#spotlight-service-text {
+    color: #d10641;  
+    font-size: 1.8em;
     text-align: center;
-    color: #616161; 
 }
 
-#titulo-servicos h1 {
-    font-size: 2em;
-    font-weight: 400;
-}
-
-#servicos {
-    background-color: #efe3bd;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-#cards-servicos {
-    padding-top: 2%;
-    padding-bottom: 2%;
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-}
-
-.card-servico {
-    flex: 1;
-    min-width: 40%;
-    height: 200px;
-    background-color: #f0f0f0;
-    margin: 1% 1% 5% 1%;
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
+.container-about {
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 
-.servico-left {
-    flex: 1;
-    color: #eb3d49;
+#about {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #ffffff;   
+    background-color: #ffffff;
 }
 
-.servico-rigth {
-    flex: 3;
-    color: #2d3c49; 
+#container-about-text {
+    padding: 2% 5% 2% 5%;
+    background-color: #25afab;
 }
 
-#contato {
-    background-color: #d1ffff;
+.spotlight-about-text {
+    font-weight: 600;
+    font-size: 1.25em;
+    margin-bottom: 5%;
 }
 
 @media screen and (min-width: 425px) {
@@ -523,89 +529,6 @@ li, i {
 
     .container::after {
         clear: both;
-    }
-
-    #inicio {
-        background-image: url("../img/inicio/journey+inicio+large.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: top;
-    }
-
-    .container-sobre-nos {
-        position: relative;
-        width: 100%;
-        height: 100%;
-    }
-
-    #sobre-nos-img-top {
-        float: left;
-        position: relative;
-        background-image: url("../img/sobre_nos/agencia_journey_marketing_digital_design_de_experiencia_social_media_hotel_restaurante_cafe_pousada_restaurante_gastronomia_bruna.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 50%;
-        height: 100%;
-    }
-
-    #sobre-nos-img-bottom {
-        float: right;
-        position: relative;
-        background-image: url("../img/sobre_nos/agencia_journey_marketing_digital_design_de_experiencia_social_media_hotel_restaurante_cafe_pousada_restaurante_gastronomia_andrea.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 50%;
-        height: 100%;
-    }
-
-    .text-sobre-nos {
-        float: left;
-        position: relative;
-        width: 50%;
-        height: 100%;        
-        background-color: #eeea57;
-        text-align: center;
-        padding: 5% 0 5% 0;
-    }
-
-    .container-text-sobre-nos {
-        position: absolute;
-        height: 75%;
-        top: 12.5%;
-    }
-
-    .titulo-sobre-nos h2 {
-        font-size: 2.0em;
-        font-weight: 600;
-        color: #0aa38c;
-        margin-top: 0;
-    }
-    
-    .corpo-sobre-nos {
-        padding: 0 10% 0 10%;
-        text-align: left;
-    }
-
-    .corpo-sobre-nos h3 {
-        font-size: 2.0em;
-        font-weight: 600;
-        color: #0aa38c;
-        margin-top: 0;
-    }
-
-    .corpo-sobre-nos p {
-        font-size: 1.2em;
-        font-weight: 600;
-        color: #616161;        
-    }
-
-    #marcadagua-journey {
-        font-family: 'cycloregular', sans-serif;
-        font-size: 1.2em;
-        font-weight: 600;
-        color: #fff;   
     }
 
     #blog {
