@@ -352,6 +352,10 @@ li, i {
     background-color: #ffffff;
 }
 
+#about-image {
+    background-color: #25afab  
+}
+
 #container-about-text {
     padding: 2% 5% 2% 5%;
     background-color: #25afab;
