@@ -276,7 +276,7 @@ li, i {
 
 
 #start-text {
-    margin: 20% auto 5% auto;
+    margin: 27.5% auto 5% auto;
     width: 90%;
     height: 40%;
     position: relative;
@@ -285,7 +285,7 @@ li, i {
 }  
 
 #start-text p {
-    font-size: 1.75em;
+    font-size: 2em;
     font-weight: 600;
     color: #616161;
 }
