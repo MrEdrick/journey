@@ -48,28 +48,32 @@ showSlidesStartImages(slideIndex);
 // Next/previous controls
 function plusSlidesStartImages(n) {
     clearTimeout(slideTimeoutStartImages);
-    showSlides(slideIndexStartImages += n);
+    showSlidesStartImages(slideIndexStartImages += n);
 }
 
 // Thumbnail image controls
 function currentSlideStartImages(n) {
     clearTimeout(slideTimeoutStartImages);
-    showSlides(slideIndexStartImages = n);
+    showSlidesStartImages(slideIndexStartImages = n);
 }
 
-function showSlidesStartImages() {
+function showSlidesStartImages(clieckedIndex) {
     var i;
     var slides = document.getElementsByClassName("start-slide-images");
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
-    slideIndexStartImages++;
+    if (clieckedIndex) {
+        slideIndexStartImages = clieckedIndex
+    } else {
+        slideIndexStartImages++;
+    }
     if (slideIndexStartImages > slides.length) {
         slideIndexStartImages = 1
     }
     slides[slideIndexStartImages - 1].style.display = "block";
     slides[slideIndexStartImages- 1].src = start_img_path + "+" + slideIndexStartImages.toString() + start_img_type;
-    slideTimeout = setTimeout(showSlidesStartImages, 5000); // Change image every 3 seconds
+    slideTimeoutStartImages = setTimeout(showSlidesStartImages, 5000); // Change image every 3 seconds
 }
 
 const client_img_path = "img/client/journey+jou+companies+resignification+experience+design+digital+marketing+img+client";
@@ -82,13 +86,13 @@ showSlidesClientImages(slideIndex);
 // Next/previous controls
 function plusSlidesClientImages(n) {
     clearTimeout(slideTimeoutClientImages);
-    showSlides(slideIndex += n);
+    showSlidesClientImages(slideIndex += n);
 }
 
 // Thumbnail image controls
 function currentSlideClientImages(n) {
     clearTimeout(slideTimeoutClientImages);
-    showSlides(slideIndex = n);
+    showSlidesClientImages(slideIndex = n);
 }
 
 function showSlidesClientImages() {

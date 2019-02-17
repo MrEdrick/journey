@@ -424,6 +424,54 @@ li, i {
     text-align: center;
 }
 
+#blog-images-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    color: #313131; 
+    font-weight: 500;  
+    font-size: 1em;
+}
+
+#blog {
+    background-color: #ffffff;
+}
+
+#before-last-article-blog {
+    flex: 1;
+}
+
+#last-article-blog {
+    flex: 2;
+    font-size: 1.3em;
+}
+
+#blog-text-container {
+    width: 100%;
+    padding: 2% 5% 2% 5%;
+    font-size: 1.7em;
+    font-weight: 500;
+    color: #616161;   
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#spotlight-blog-text {
+    color: #313131; 
+    font-weight: 600;  
+    transition        : all 0.25s linear;
+    -moz-transition   : all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+    -o-transition     : all 0.25s linear;
+}
+
+#spotlight-blog-text:hover {
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
 #contact {
     position: relative;
     width: 100%;
