@@ -175,6 +175,12 @@ figure {
     bottom: -4px;
 }
 
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
 ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
@@ -567,6 +573,28 @@ li, i {
         color: #414141; 
     }
 
+    #title-mobile {
+        display: block;
+        width: 40%;
+        float: left;
+    }
+        
+    #title-desktop {
+        display: block;
+    }
+    
+    #menu-bar-desktop {
+        display: block;
+    }
+    
+    #menu-bar-mobile {
+        display: none;
+    }
+    
+    #header-center {
+        display: block;
+    }
+
     #container-header {
         position: relative;
         width : 100%;
@@ -696,6 +724,42 @@ li, i {
         height: 100%;        
     }
 
+
+    #start-text {
+        margin: 0%;
+        width: 30%;
+        height: 30%;
+        position: absolute;
+        display: block;
+        text-align: center;
+    }  
+
+    #start-images img {
+        margin-top: -100px;
+        margin: 0% !important;
+        padding: 0% !important;
+        display: block;
+    }
+    
+    #start-text p {
+        font-size: 2em;
+        font-weight: 600;
+        color: #ffffff;
+    }
+    
+    #spotlight-start-text {
+        font-size: 2em;
+        font-weight: 600;
+        color: #25afab;
+    }
+
+    #start-images {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: inline-block;
+    }
+
     footer {
         position: relative;
         width: 100%;
@@ -709,69 +773,6 @@ li, i {
 
     .container::after {
         clear: both;
-    }
-
-    #blog {
-        position: relative;
-        display: inline-block;
-        width: 100%;
-        height: 65%;
-    }
-
-    #blog-caixa {
-        top: 0;
-        left: 0;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-flow: row;
-        flex-wrap: wrap;
-    }
-
-    #blog-caixa-ultimo {
-        flex: 1;
-        background-image: url("../img/blog/journey+blog+last+500h.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;           
-    }
-
-    #blog-caixa-recentes {
-        flex: 2;      
-        display: block;
-    }
-
-    .blog-caixa-recente {
-        float: left;
-        display: block;
-        min-width: 50%;
-        min-height: 50%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: top;
-    }
-
-    .blog-caixa-recente:after {
-        content: '';
-        clear: both;
-        display: block;       
-    }
-    
-    #blog-caixa-recente-1 {
-        background-image: url("../img/blog/journey+blog+1+500h.jpg");
-    }
-
-    #blog-caixa-recente-2 {
-        background-image: url("../img/blog/journey+blog+2+500h.jpg");
-    }
-
-    #blog-caixa-recente-3 {
-        background-image: url("../img/blog/journey+blog+3+500h.jpg");
-    }
-
-    #blog-caixa-recente-4 {
-        background-image: url("../img/blog/journey+blog+4+500h.jpg");
     }
   
 }
