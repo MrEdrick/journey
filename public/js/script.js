@@ -37,3 +37,71 @@ function runOnScroll() {
 };
 
 window.document.body.addEventListener("scroll", runOnScroll);
+
+const start_img_path = "img/start/journey+jou+companies+resignification+experience+design+digital+marketing+img+start";
+const start_img_type = ".jpg";
+
+var slideIndexStartImages = 0;
+var slideTimeoutStartImages;
+showSlidesStartImages(slideIndex);
+
+// Next/previous controls
+function plusSlidesStartImages(n) {
+    clearTimeout(slideTimeoutStartImages);
+    showSlides(slideIndexStartImages += n);
+}
+
+// Thumbnail image controls
+function currentSlideStartImages(n) {
+    clearTimeout(slideTimeoutStartImages);
+    showSlides(slideIndexStartImages = n);
+}
+
+function showSlidesStartImages() {
+    var i;
+    var slides = document.getElementsByClassName("start-slide-images");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndexStartImages++;
+    if (slideIndexStartImages > slides.length) {
+        slideIndexStartImages = 1
+    }
+    slides[slideIndexStartImages - 1].style.display = "block";
+    slides[slideIndexStartImages- 1].src = start_img_path + "+" + slideIndexStartImages.toString() + start_img_type;
+    slideTimeout = setTimeout(showSlidesStartImages, 5000); // Change image every 3 seconds
+}
+
+const client_img_path = "img/client/journey+jou+companies+resignification+experience+design+digital+marketing+img+client";
+const client_img_type = ".jpg";
+
+var slideIndex = 0;
+var slideTimeoutStartImages;
+showSlidesClientImages(slideIndex);
+
+// Next/previous controls
+function plusSlidesClientImages(n) {
+    clearTimeout(slideTimeoutClientImages);
+    showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlideClientImages(n) {
+    clearTimeout(slideTimeoutClientImages);
+    showSlides(slideIndex = n);
+}
+
+function showSlidesClientImages() {
+    var i;
+    var slides = document.getElementsByClassName("client-slide-images");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+        slideIndex = 1
+    }
+    slides[slideIndex - 1].style.display = "block";
+    slides[slideIndex - 1].src = client_img_path + "+" + slideIndex.toString() + client_img_type;
+    slideTimeout = setTimeout(showSlidesClientImages, 5000); // Change image every 3 seconds
+}
