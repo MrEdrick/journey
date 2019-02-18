@@ -807,6 +807,49 @@ li, i {
     #start-text-mobile {
         display: none;
     }
+
+    #container-service-descripion {
+        padding: 10% 5% 10% 5%;
+        display: block;
+        width: 50%;
+        height: 80%;
+        font-size: 1.7em;
+        font-weight: 100;
+        color: #ffffff;
+        text-align: left;
+        background-color: #25afab;
+        float: left;
+    }
+    
+    #container-service-descripion a {
+        margin-top: 1%; 
+        transition        : all 0.25s linear;
+        -moz-transition   : all 0.25s linear;
+        -webkit-transition: all 0.25s linear;
+        -o-transition     : all 0.25s linear;
+    }
+    
+    #container-service-descripion a:hover {
+        cursor: pointer;
+        font-size: 1.05em;
+    }
+    
+    .container-service-text {
+        width: 50%;
+        height: 100%;
+        padding: 2% 5% 2% 5%;
+        font-size: 1.4em;
+        font-weight: 600;
+        color: #616161;   
+        background-color: #ffffff;
+        float: left;
+    }
+    
+    #spotlight-service-text {
+        color: #d10641;  
+        font-size: 1.8em;
+        text-align: center;
+    }
     
     footer {
         position: relative;
