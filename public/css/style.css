@@ -243,8 +243,13 @@ header {
     transition: all 0.25s ease-in-out;
 }
 
+.header-top-left {
+    padding-top: 2% !important;
+    padding-left: 5% !important;
+}
+
 #header-left {
-    padding-top: 1.8%;
+    padding-top: 0.4%;
     padding-left: 5%;
 }
 
@@ -530,6 +535,16 @@ li, i {
 }
 
 @media screen and (min-width: 770px) {
+    figure {
+        bottom: 0px;
+    }
+
+    header {
+        padding: 0%;
+        background: rgba(255, 255, 255, 0.25);
+        max-height: none;
+    }
+
     .header-blur {    
         -moz-box-shadow: inset 0 -10px 10px -10px rgba(255, 255, 255, 1);;
         -webkit-box-shadow: inset 0 -10px 10px -10px rgba(255, 255, 255, 1);;
@@ -539,6 +554,10 @@ li, i {
         -moz-transition   : all 0.5s linear;
         -webkit-transition: all 0.5s linear;
         -o-transition     : all 0.5s linear;
+    }
+
+    .header-blur a {
+        color: #414141;
     }
 
     .header-blur:before {
@@ -561,12 +580,16 @@ li, i {
     }
 
     .header-solid {
-        background-color: #fff;
+        background-color: #ffffff; 
 
         transition        : all 0.5s linear;
         -moz-transition   : all 0.5s linear;
         -webkit-transition: all 0.5s linear;
         -o-transition     : all 0.5s linear;
+    }
+
+    .header-solid a {
+        color: #616161;
     }
 
     header h1 a {
@@ -613,11 +636,17 @@ li, i {
         display: block;
         z-index: 3;
         float: left;
+        color: #616161 !important; 
     }
     
     #title-desktop {
         display: block;
         margin-top: 5.5px;
+        font-size: 2.5em;
+    }
+
+    .logo {
+        font-size: 0.5em;
     }
 
     #title-mobile {
@@ -636,6 +665,7 @@ li, i {
         display: block;
         z-index: 4;
         float: right;
+        color: #616161 !important; 
     }
 
     .header-button {
@@ -650,6 +680,7 @@ li, i {
         display: block;
         z-index: 3;
         float: left;
+        color: #616161 !important; 
     }
     
     .header-button, #menu {
@@ -671,12 +702,11 @@ li, i {
         font-weight: 400;
         padding: 16px;
         text-decoration: none;
-        color: #0cbeb9;
         font-size: 1.25em;
     }
     
     #menu li a:hover {
-        background-color: rgba(12, 190, 185, 0.10);
+        color: #25afab;
     }   
     
     .header-top-rigth li {
@@ -693,7 +723,7 @@ li, i {
     }
 
     .header-top-rigth li a i:hover {
-        color: #0cbeb9;
+        color: #25afab;
     }
 
     .header-rigth li {
@@ -706,11 +736,11 @@ li, i {
         font-size: 1.5em;
         padding: 6px;
         text-decoration: none;
-        color: #414141;
+        color: #616161;
     }
 
     .header-rigth li a i:hover {
-        color: #0cbeb9;
+        color: #25afab;
     }
 
     #header-rigth ul {
