@@ -40,7 +40,7 @@ window.document.body.addEventListener("scroll", runOnScroll);
 
 var slideIndexStartImages = 0;
 var slideTimeoutStartImages;
-showSlidesStartImages(slideIndex);
+showSlidesStartImages(slideIndexStartImages);
 
 // Next/previous controls
 function plusSlidesStartImages(n) {
@@ -56,7 +56,7 @@ function currentSlideStartImages(n) {
 
 function showSlidesStartImages(clieckedIndex) {
     var i;
-    var slides = document.getElementsByClassName("start-slider-dot-control");
+    var slides = document.getElementsByClassName("start-dot-control");
 
     if (clieckedIndex) {
         slideIndexStartImages = clieckedIndex
@@ -66,7 +66,7 @@ function showSlidesStartImages(clieckedIndex) {
     if (slideIndexStartImages > slides.length) {
         slideIndexStartImages = 1
     }
-
+    console.log(slides[slideIndexStartImages - 1]);
     slides[slideIndexStartImages - 1].click();
     slideTimeoutStartImages = setTimeout(showSlidesStartImages, 5000); // Change image every 3 seconds
 }
