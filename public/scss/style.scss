@@ -322,13 +322,6 @@ li, i {
 /*---- NUMBER OF SLIDE CONFIGURATION ----*/
 $num-of-slide: 4;
 
-.wrapper-start-images {
-    width: 100%;
-    height: 50%;
-    position: relative;
-    display: inline-block;
-}
-
 input {
     display: none;
 }
@@ -348,10 +341,8 @@ article {
     }
 }
 
-/*---- SET UP CONTROL ----*/
-
 .slider-dot-control {
-    position: fixed;
+    position: absolute;
     width: 100%;
     bottom: 0;
     text-align: center;
@@ -391,49 +382,11 @@ article {
 }
 
 /*---- SET POSITION FOR SLIDE ----*/
-%bind-prev-next-button {
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-    margin: 0;
-    line-height: 38px;
-    font-size: 3em;
-    display: block;
-    color: #777;
-}
-
-%bind-next-button {
-    @extend %bind-prev-next-button;
-    content: "\f105";
-    padding-left: 15px;
-}
-
-%bind-next-label {
-    display: block;
-    float: right;
-    margin-right: 5px;
-}
-
-%bind-prev-label {
-    display: block;
-    float: left;
-    margin-left: 5px;
-}
-
-%bind-prev-button {
-    @extend %bind-prev-next-button;
-    content: "\f104";
-    padding-left: 8px;
-}
 
 %bind-background-active-dot {
     background: #333;
 }
 
-%bind-opacity-info {
-    opacity: 1;
-}
 
 @for $i from 1 through $num-of-slide {
     #slide#{$i}:checked {
@@ -444,55 +397,9 @@ article {
         & ~ .slider-dot-control label:nth-child(#{$i}) {
             @extend %bind-background-active-dot;
         }
-
-        & ~ .slider-wrapper article:nth-child(#{$i}) .info {
-            @extend %bind-opacity-info;
-        }
     }
 }
 
-@for $i from 1 through ($num-of-slide - 1) {
-    #slide#{$i}:checked {
-        & ~ .slider-prev-next-control label:nth-child(#{$i +1}) {
-            @extend %bind-next-label;
-
-            &::after {
-                @extend %bind-next-button;
-            }
-        }
-    }
-}
-
-#slide#{$num-of-slide}:checked ~ .slider-prev-next-control label:nth-child(1) {
-    @extend %bind-next-label;
-
-    &::after {
-        @extend %bind-next-button;
-    }
-}
-
-@for $i from 2 through $num-of-slide {
-    #slide#{$i}:checked {
-        & ~ .slider-prev-next-control label:nth-child(#{$i - 1}) {
-            @extend %bind-prev-label;
-
-            &::after {
-                @extend %bind-prev-button;
-            }
-        }
-    }
-}
-
-#slide#{1}:checked ~ .slider-prev-next-control label:nth-child(#{$num-of-slide}) {
-    @extend %bind-prev-label;
-
-    &::after {
-        @extend %bind-prev-button;
-    }
-}
-
-  
-  
 #services {
     background-color: #ffffff;
     width: 100%;
