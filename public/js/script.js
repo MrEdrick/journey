@@ -56,7 +56,7 @@ function currentSlideStartImages(n) {
 
 function showSlidesStartImages(clieckedIndex) {
     var i;
-    var slides = document.getElementsByClassName("slider-dot-label");
+    var slides = document.getElementsByClassName("start-slider-dot-control");
 
     if (clieckedIndex) {
         slideIndexStartImages = clieckedIndex
