@@ -77,7 +77,6 @@ function showSlidesClientImages(clieckedIndex) {
     var slides = document.getElementsByClassName("container-client-image");
     
     for (i = 0; i < slides.length; i++) {
-        document.getElementsByClassName("client-text")[i].style.fontSize = "1.7em";
         if (slides[i].style.display == "block") {
             slides[i].style.display = "none";
         }
@@ -93,6 +92,5 @@ function showSlidesClientImages(clieckedIndex) {
     }
 
     slides[slideIndexClientImages - 1].style.display = "block";
-    document.getElementsByClassName("client-text")[slideIndexClientImages - 1].style.fontSize = "1.9em";
     slideTimeoutStartImages = setTimeout(showSlidesClientImages, 5000); // Change image every 3 seconds
 }
