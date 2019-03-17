@@ -555,7 +555,6 @@ $num-of-slide: 4;
     padding: 10% 5% 10% 5%;
     display: block;
     width: 100%;
-    font-size: 1.7em;
     font-weight: 100;
     color: #ffffff;
     text-align: left;
@@ -568,7 +567,15 @@ $num-of-slide: 4;
     -webkit-animation-duration: 2s;
     animation-name: fade;
     animation-duration: 2s;
-  }
+}
+
+.client-text {
+    font-size: 1.7em;
+    -webkit-transition: font-size .5s ease;
+    -moz-transition: font-size .5s ease;
+    -o-transition: font-size .5s ease;
+    transition: font-size .5s ease;
+}
 
 @-webkit-keyframes fade {
     from {opacity: .4} 
@@ -666,7 +673,7 @@ $num-of-slide: 4;
     color: #ffffff;
 }
 
-#footer-contact{
+#footer-contact {
     position: relative;
     display: inline-block;
     width: 100%;

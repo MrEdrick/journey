@@ -451,7 +451,6 @@ li, i {
   padding: 10% 5% 10% 5%;
   display: block;
   width: 100%;
-  font-size: 1.7em;
   font-weight: 100;
   color: #ffffff;
   text-align: left;
@@ -463,6 +462,13 @@ li, i {
   -webkit-animation-duration: 2s;
   animation-name: fade;
   animation-duration: 2s; }
+
+.client-text {
+  font-size: 1.7em;
+  -webkit-transition: font-size .5s ease;
+  -moz-transition: font-size .5s ease;
+  -o-transition: font-size .5s ease;
+  transition: font-size .5s ease; }
 
 @-webkit-keyframes fade {
   from {
