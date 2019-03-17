@@ -325,9 +325,6 @@ li, i {
 .start-slider-wrapper {
   width: 100%;
   overflow: hidden;
-  border-radius: 5px;
-  -webkit-box-shadow: 1px 1px 4px #666;
-  box-shadow: 1px 1px 4px #666;
   background: #fff;
   background: #fcfff4;
   -webkit-transform: translateZ(0);
@@ -460,6 +457,24 @@ li, i {
   text-align: left;
   background-color: #25afab;
   text-align: center; }
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
 
 #blog-images-container {
   width: 100%;

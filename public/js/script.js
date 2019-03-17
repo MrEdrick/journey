@@ -39,8 +39,10 @@ function runOnScroll() {
 window.document.body.addEventListener("scroll", runOnScroll);
 
 var slideIndexStartImages = 0;
+var slideIndexClientImages = 0;
 var slideTimeoutStartImages;
 showSlidesStartImages(slideIndexStartImages);
+showSlidesClientImages(slideIndexClientImages);
 
 // Next/previous controls
 function plusSlidesStartImages(n) {
@@ -55,7 +57,6 @@ function currentSlideStartImages(n) {
 }
 
 function showSlidesStartImages(clieckedIndex) {
-    var i;
     var slides = document.getElementsByClassName("start-dot-control");
 
     if (clieckedIndex) {
@@ -66,7 +67,30 @@ function showSlidesStartImages(clieckedIndex) {
     if (slideIndexStartImages > slides.length) {
         slideIndexStartImages = 1
     }
-    console.log(slides[slideIndexStartImages - 1]);
+
     slides[slideIndexStartImages - 1].click();
     slideTimeoutStartImages = setTimeout(showSlidesStartImages, 5000); // Change image every 3 seconds
+}
+
+function showSlidesClientImages(clieckedIndex) {
+    var i;
+    var slides = document.getElementsByClassName("container-client-image");
+    
+    for (i = 0; i < length(slides); i++) {
+        if (slides[i].style.display == "block") {
+            slides[i].style.display = "none";
+        }
+    } 
+
+    if (clieckedIndex) {
+        slideIndexClientImages = clieckedIndex
+    } else {
+        slideIndexClientImages++;
+    }
+    if (slideIndexClientImages > slides.length) {
+        slideIndexClientImages = 1
+    }
+
+    slides[slideIndexClientImages - 1].style.display = "block";
+    slideTimeoutStartImages = setTimeout(showSlidesClientImages, 5000); // Change image every 3 seconds
 }
