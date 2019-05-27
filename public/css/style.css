@@ -664,7 +664,8 @@ i {
     width: 70%;
     float: right;
     display: block;
-    z-index: 3; }
+    z-index: 3;
+    margin-right: 5%; }
   .header-rigth {
     height: 60px;
     display: block;
@@ -675,7 +676,8 @@ i {
     width: 70%;
     float: right;
     display: block;
-    z-index: 3; }
+    z-index: 3;
+    margin-right: 5%; }
   .header-center {
     height: 60px;
     display: block;
