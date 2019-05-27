@@ -537,7 +537,7 @@ $num-of-slide: 4;
 }
 
 #about-image {
-    background-color: #25afab  
+    background-color: #25afab; 
 }
 
 #container-about-text {
@@ -683,6 +683,13 @@ $num-of-slide: 4;
         padding: 0%;
         background: rgba(255, 255, 255, 0.25);
         max-height: none;
+    }
+
+    .container {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: auto;
     }
 
     .header-blur {    
@@ -923,7 +930,6 @@ $num-of-slide: 4;
         color: #25afab;
     }
 
-
     #start-text-desktop {
         display: inline-block;
         margin: 0 auto;
@@ -937,21 +943,21 @@ $num-of-slide: 4;
         top: 0px;
         position: absolute;
         width: 40%;
-        height: 100%;
+        height: 99.5%;
         right: 0;
         background-color: rgba(#25afab, 0.5);
     }    
 
     #container-service-descripion {
-        padding: 10% 5% 10% 5%;
+        padding: 4.65% 5% 4.65% 5%;
         display: block;
         width: 50%;
-        height: 80%;
-        font-size: 1.7em;
+        height: 10%;
+        font-size: 1.8em;
         font-weight: 100;
-        color: #ffffff;
+        color: #25afab;
         text-align: left;
-        background-color: #25afab;
+        background-color: #ffffff;
         float: left;
     }
     
@@ -970,21 +976,26 @@ $num-of-slide: 4;
     
     .container-service-text {
         width: 50%;
-        height: 100%;
+        height: 10%;
         padding: 2% 5% 2% 5%;
+        display: block;
         font-size: 1.4em;
         font-weight: 600;
-        color: #616161;   
+        color: #25afab;   
         background-color: #ffffff;
         float: left;
     }
     
     #spotlight-service-text {
-        color: #d10641;  
+        color: #25afab;  
         font-size: 1.8em;
         text-align: center;
     }
     
+    #about-image {
+        background-color: #d10641;  
+    }
+
     footer {
         position: relative;
         width: 100%;
@@ -1000,12 +1011,39 @@ $num-of-slide: 4;
         clear: both;
     }
   
+    #contact {
+        height: auto;
+    }
+    
+    #header-contact p {
+        width: 50%;
+        float: left;
+        font-weight: 500;
+        font-size: 2em;
+        margin-left: 10%;
+    }
+
+    #footer-contact {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        text-align: center;   
+        padding: 0%;
+        font-size: 1.0em;
+    }
+
+    #body-contact ul {
+        top: 25%;
+        right: 3.0%;
+        position: absolute;
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (min-width: 1366px) {
     #container-about-text {
         width: 32%;
-        height: 100%;
+        height: 99.5%;
         left: 0;
     }    
 }
