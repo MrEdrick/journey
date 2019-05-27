@@ -42,7 +42,7 @@ var slideIndexStartImages = 0;
 var slideIndexClientImages = 0;
 var slideTimeoutStartImages;
 showSlidesStartImages(slideIndexStartImages);
-showSlidesClientImages(slideIndexClientImages);
+//showSlidesClientImages(slideIndexClientImages);
 
 // Next/previous controls
 function plusSlidesStartImages(n) {
@@ -92,5 +92,5 @@ function showSlidesClientImages(clieckedIndex) {
     }
 
     slides[slideIndexClientImages - 1].style.display = "block";
-    slideTimeoutStartImages = setTimeout(showSlidesClientImages, 5000); // Change image every 3 seconds
+    //slideTimeoutStartImages = setTimeout(showSlidesClientImages, 5000); // Change image every 3 seconds
 }
